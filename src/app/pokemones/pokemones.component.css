@@ -1,0 +1,250 @@
+
+.imagen_icon{
+width: 50px;
+
+
+
+}
+
+
+.control{
+background-color: rgb(99, 118, 186);
+}
+
+.form-select{
+position: relative;
+width: 20em;
+left: 2em;
+border-radius: 30px;
+margin: 10px;
+}
+
+
+.card{
+margin: 15px;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+
+#buscador{
+margin: 10px;
+}
+
+
+.form-control{
+width: 25em;
+margin: 20px;
+border-radius: 40px;
+height: 3em;
+border-color: red;
+}
+
+img{ 
+background-image: url('./blob.svg');
+}
+
+
+.tipo{
+     position: relative;
+   left: 20px;
+    }
+
+/* Normal */
+.normal {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #A8A878;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Fire */
+.fire {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #F08030;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Water */
+.water {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #6890F0;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Electric */
+.electric {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  background-color: #F8D030;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Grass */
+.grass {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #78C850;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Ice */
+.ice {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #98D8D8;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Fighting */
+.fighting {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  background-color: #C03028;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Poison */
+.poison {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #A040A0;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Ground */
+.ground {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #E0C068;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Flying */
+.flying {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #A890F0;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Psychic */
+.psychic {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #F85888;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Bug */
+.bug {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #A8B820;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Rock */
+.rock {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #B8A038;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Ghost */
+.ghost {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #705898;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Dragon */
+.dragon {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #7038F8;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Dark */
+.dark {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #705848;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Steel */
+.steel {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #B8B8D0;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Fairy */
+.fairy {
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 9em;
+  background-color: #EE99AC;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
