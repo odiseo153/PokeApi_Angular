@@ -9,13 +9,12 @@
 
 
 <div *ngIf="loading">
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">
 <img class="imagen_icon" src='https://th.bing.com/th/id/OIP.dzud9ieLzkXpzhkIz9f8NAAAAA?w=145&h=150&c=7&r=0&o=5&dpr=1.3&pid=1.7' alt='.'/>  
 </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
 
@@ -29,37 +28,21 @@
 </div>
 
 
+<mat-chip-listbox class='select'  *ngFor="let item of opciones" [(ngModel)]="categoria" >
+  <mat-chip-option  class="items" [value]="item">{{item}}</mat-chip-option>
+</mat-chip-listbox>
 
 
-<select class="form-select" [(ngModel)]="categoria" aria-label="Default select example">
-  <option value="" seleted>Todos</option>
-  <option value="normal">Normal</option>
-  <option value="fire">Fuego</option>
-  <option value="water">Agua</option>
-  <option value="grass">Planta</option>
-  <option value="electric">Eléctrico</option>
-  <option value="ice">Hielo</option>
-  <option value="fighting">Lucha</option>
-  <option value="poison">Veneno</option>
-  <option value="ground">Tierra</option>
-  <option value="flying">Volador</option>
-  <option value="psychic">Psíquico</option>
-  <option value="bug">Bicho</option>
-  <option value="rock">Roca</option>
-  <option value="ghost">Fantasma</option>
-  <option value="dragon">Dragón</option>
-  <option value="dark">Siniestro</option>
-  <option value="steel">Acero</option>
-  <option value="fairy">Hada</option>
-</select>
-
+<h3 style="color: red;"><strong style="color: yellow;">Pokemons:</strong> {{PokemonCantidad}}</h3>
 
 <div class="container">
   <div class="row">
     <div class="col-lg-4 col-md-6 col-sm-12"  *ngFor="let item of applyTransformations() | paginate: { itemsPerPage: 6, currentPage: page }">
-      <div class="card" > <!-- Agregamos la clase "mb-4" para margen inferior -->
+      
+<div class="card" > <!-- Agregamos la clase "mb-4" para margen inferior -->
         <img src={{item.sprites.front_default}} class="card-img-top img-fluid" alt="..." >
         <div class="card-body">
+
           <h4><strong>Num:</strong>{{item.id}}</h4>
           <h3 class="card-title" style="font-family: comic;"><strong>{{item.name}}</strong></h3>
           <div *ngFor="let item1 of item.types">
@@ -72,6 +55,8 @@
     </div>
   </div>
 </div>
+
+
 <div class="control">
 <pagination-controls  
                       (pageChange)="page =$event"

@@ -1,14 +1,24 @@
 
 .imagen_icon{
 width: 50px;
-
-
-
 }
 
 
+.items{
+color:white;
+  width: 9em;
+  color: #fff;
+  font-family: 'Comic', Courier, monospace;
+}
+
+.select{
+display:inline-flex;
+border-radius: 100px;
+}
+
 .control{
 background-color: rgb(99, 118, 186);
+
 }
 
 .form-select{
