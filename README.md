@@ -1,27 +1,21 @@
-# AppNew
+# PokeAPI Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+¡Bienvenido a la PokeAPI desarrollada en Angular! Esta aplicación te permite explorar la información de Pokémon, filtrarlos por tipo y buscarlos por nombre.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Exploración de Pokémon**: Navega a través de la lista completa de Pokémon.
+- **Filtrado por Tipo**: Filtra los Pokémon según su tipo para encontrar rápidamente a tus favoritos.
+- **Búsqueda por Nombre**: Utiliza la barra de búsqueda para encontrar Pokémon específicos por su nombre.
 
-## Code scaffolding
+## Requisitos Previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Asegúrate de tener instalado [Node.js](https://nodejs.org/) y [Angular CLI](https://cli.angular.io/) en tu sistema antes de comenzar.
 
-## Build
+## Instalación
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local:
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   git clone https://github.com/odiseo153/PokeApi_Angular.git
+   cd PokeApi_Angular
